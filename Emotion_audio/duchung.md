@@ -1,0 +1,7 @@
+# Mô tả ngắn gọn về 2 Source Code trong Emotion_audio
+
+## 1. wavlm-wdee.ipynb
+Embedding đầu ra được lưu dưới dạng file crema_features_256.npz với X shape: (7442, 256), y shape: (7442,). Embedding đầu ra của mô hình có thể tải tại: [https://drive.google.com/file/d/132zicZulQAncQhelH-h467YIf2OoK7ra/view?usp=sharing](https://drive.google.com/file/d/132zicZulQAncQhelH-h467YIf2OoK7ra/view?usp=sharing)
+
+## 2. whisper-cremad.ipynb
+embedding có shape: (7442, 512). Embedding đầu ra của mô hình có thể tải tại: [https://drive.google.com/file/d/1uxTDyAjDS-dIOsXLySlkhin1yYeczrXp/view?usp=sharing](https://drive.google.com/file/d/1uxTDyAjDS-dIOsXLySlkhin1yYeczrXp/view?usp=sharing)
