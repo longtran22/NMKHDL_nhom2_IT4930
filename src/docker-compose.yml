@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  emotion-audio-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7860:7860"
+    environment:
+      - GRADIO_SERVER_NAME=0.0.0.0
+      - GRADIO_SERVER_PORT=7860
+    volumes:
+      # Optional: Mount models directory for easier model updates
+      - ./models:/app/models
+    restart: unless-stopped
+    # Uncomment the following lines if you have GPU support
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]

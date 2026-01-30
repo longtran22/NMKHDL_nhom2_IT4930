@@ -1,0 +1,9 @@
+torch
+torchaudio
+transformers
+numpy
+gradio
+soundfile
+torchvision
+pillow
+pysoundfile
